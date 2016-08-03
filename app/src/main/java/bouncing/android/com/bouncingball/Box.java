@@ -22,7 +22,7 @@ public class Box {
         this.xMin = x;
         this.xMax = x + width - 1;
         this.yMin = y;
-        this.yMin = y + height - 1;
+        this.yMax = y + height - 1;
         // The box's bounds do not change unless the view's size changes
         bounds.set(xMin, yMin, xMax, yMax);
     }
